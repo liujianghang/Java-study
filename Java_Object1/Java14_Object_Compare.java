@@ -1,6 +1,6 @@
 package java_study.Java_Object1;
 
-public class Java14_Object_Compa {
+public class Java14_Object_Compare {
     public static void main(String[] args) throws Exception {
         // TODO 常见类和对象：字符串的各种操作:  比较
         //  基本数据类型：直接双等号比较
