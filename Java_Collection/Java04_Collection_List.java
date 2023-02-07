@@ -11,6 +11,8 @@ public class Java04_Collection_List {
         list.add("zhangsan");
         list.addFirst("lisi");
         list.add(1, "wangwu");
+        list.addLast("zhaoliu");
+        list.addAll(new LinkedList());
 
         //  2.获取数据
         System.out.println(list.getFirst());
@@ -26,6 +28,19 @@ public class Java04_Collection_List {
 
         //  4.删除数据
         System.out.println(list.remove("zhangsan"));
+        System.out.println(list.remove());// 默认删除第一个
+        list.removeFirst();
+        list.remove(1);
+        list.removeLast();
+        list.clear();
+
+        //  5.索引数据
+        list.contains("zhangsan");
+        list.indexOf(1);
+
+        //  6.栈操作
+        list.push("123"); // 加成第一个数
+        list.pop(); // 弹出第一个数
 
     }
 }
